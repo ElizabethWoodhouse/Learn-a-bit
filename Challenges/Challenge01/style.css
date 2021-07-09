@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: #f1fff6;
+	font-family: 'Rubik';
+}
+nav {
+	background-color: #221727;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.nav_item_container {
+	display: flex;
+	align-items: center;
+}
+.nav-items {
+	display: flex;
+}
+.nav-items a {
+	text-decoration: none;
+}
+.nav-items li {
+	list-style-type: none;
+	margin: 2%;
+}
+.nav-items button {
+	padding: 20%;
+}
+button {
+	background-color: #5ef4d6;
+	text-transform: uppercase;
+	color: #221727;
+	border-radius: 3%;
+	border: none;
+}
+.main-content {
+	background-image: url('./images/mintbean-dome.png');
+	background-size: cover;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+.learn_a_bit_info_box {
+	border: 1px solid #5ef4d6;
+	border-radius: 2%;
+	width: 50%;
+	margin: 15%;
+	background-color: #221727;
+	padding: 2%;
+	text-align: left;
+}
+.learn_a_bit_info_box h3 {
+	text-transform: uppercase;
+	margin-bottom: 2%;
+}
+.learn_a_bit_info_box p {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.large_join_button {
+	padding: 2%;
+}
