@@ -1,0 +1,63 @@
+:root {
+	--main-background: #4143b1;
+	--secondary-background: #221727;
+	--main-font-color: #f1fff6;
+	--secondary-font-color: #221727;
+	--highlight-color: #5ef4d6;
+	--main-font: 'Viga';
+	--secondary-font: 'Rubik';
+}
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: var(--main-font);
+	color: var(--main-font-color);
+	background-color: var(--main-background);
+}
+.main_page {
+	display: flex;
+	flex-direction: column;
+}
+.main_page h1 {
+	color: var(--highlight-color);
+	text-transform: uppercase;
+	align-self: center;
+	font-family: var(--secondary-font);
+	font-weight: bolder;
+}
+.info_card {
+	border: 2px solid var(--highlight-color);
+	background-color: var(--secondary-background);
+	display: flex;
+	width: 50%;
+	align-self: center;
+}
+.info_card img {
+	width: 50%;
+}
+.card_content {
+	display: flex;
+	flex-direction: column;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	padding-bottom: 1.5%;
+}
+.card_content h2 {
+	font-family: var(--secondary-font);
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.card_content p {
+	display: flex;
+	flex-direction: column;
+}
+.card_content button {
+	background-color: var(--highlight-color);
+	color: var(--secondary-font-color);
+	text-transform: uppercase;
+	align-self: flex-start;
+	border: none;
+	border-radius: 4%;
+	padding: 0.8%;
+}
